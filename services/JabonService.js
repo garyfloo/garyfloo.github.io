@@ -1,22 +1,9 @@
-/*
-import axios from "axios";
-
-const API_URL = "http://localhost:8080/jabones";
-
-class JabonService {
-    getJabones() {
-        return axios.get(API_URL);
-    }
-}
-
-export default new JabonService();
-*/
 
 // src/services/JabonService.js
 import axios from "axios";
 
 // CORRECCIÓN: Agregar /api para alinearse con el Backend
-const API = "https://backend-production-ae48.up.railway.app/api/jabones"; 
+const API_URL = "https://backend-production-ae48.up.railway.app/api/jabones"; 
 
 class JabonService {
 
@@ -47,6 +34,7 @@ class JabonService {
 }
 
 export default new JabonService();
+
 
 
 
