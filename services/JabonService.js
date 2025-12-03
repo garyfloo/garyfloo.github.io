@@ -16,7 +16,7 @@ export default new JabonService();
 import axios from "axios";
 
 // CORRECCIÓN: Agregar /api para alinearse con el Backend
-const API = "https://backend-production-ae48.up.railway.app//api/jabones"; 
+const API = "https://backend-production-ae48.up.railway.app/api/jabones"; 
 
 class JabonService {
 
@@ -47,5 +47,6 @@ class JabonService {
 }
 
 export default new JabonService();
+
 
 
